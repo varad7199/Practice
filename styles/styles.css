@@ -1,1 +1,41 @@
+.container{
+    display:flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-content: center;
+   /* text-align: center; */
+}
+.heading{
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 5rem;
+    /* padding-left: 50%; */
+}
+.row{
+    display: flex;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    max-width: 15rem;
+    max-height: 30rem;
+    position: relative;
+    z-index: 10;
+    right: 2rem;
+    bottom: 2rem;
+}
+.img2{
+    max-width: 5rem;
+    max-height: 30rem;
 
+}
+.para{
+   z-index: 5;
+   position: relative;
+   left: 6rem;
+   bottom: 2.5rem;
+   width: 15rem;
+}
